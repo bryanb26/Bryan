@@ -879,6 +879,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	text-align: center;
 }
 
+@media screen and (max-width: 800px){
+	.close_button{
+		padding: 1rem 1.66rem;
+	}
+	
+}
+
 .close_button_title{
 	font-family: 'Staatliches', cursive;
 	color:white;
@@ -964,3 +971,8 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	margin-right: 0 !important;
 }
 
+@media screen and (max-width: 600px){
+	.col-1-of-2{
+		margin-bottom: 5;
+	}
+}
