@@ -157,7 +157,8 @@ body{
 
 @media screen and (max-width:600px){
 	.col-1-of-2{
-		width: 100%;
+		width: 95%;
+		position: center;
 	}
 }
 .about_image_1 {
