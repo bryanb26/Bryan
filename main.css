@@ -299,7 +299,6 @@ body{
 	.about_image:hover{
 		transform: unset;
 		z-index: unset;
-		box-shadow: unset;
 		transition: unset;
 	}
 }
