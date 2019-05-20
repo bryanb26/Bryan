@@ -348,6 +348,13 @@ body{
 	font-size: --default-font-size;
 }
 
+@media screen and (max-width:600px){
+	.card{
+		margin-right: 0rem;
+	}
+}
+
+
 .card-side{
 	height: 500px;
 	width: auto;
