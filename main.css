@@ -137,14 +137,25 @@ body{
 	height: 60vh;
 }
 
+@media screen and (max-width:600px){
+	.about_pictures{
+		height:50vh;
+		display: flex;
+		justify-content: center;
+	}
+}
+
 .col-1-of-2{
 	width: calc((100% - 6rem)/2);
 }
 
+@media screen and (max-width:600px){
+	.col-1-of-2{
+		width: 100%;
+	}
+}
 .about_image_1 {
   position: absolute;
-  top: 0;
-  left: 20rem;
 }
 
 @media screen and (max-width: 1200px){
@@ -176,8 +187,6 @@ body{
 	margin-bottom: 8rem;
 
 }
-
-
 
 [class^="col-"]{
 	float: left;
@@ -223,6 +232,13 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+@media screen and (max-width: 600px){
+	.topnav a {
+		font-size: 12px;
+		padding: 10px 12px;
+	}
 }
 
 .topnav a:hover {
@@ -329,12 +345,29 @@ body{
 	transition: all 1s;
 }
 
+@media screen and (max-width: 1024px){
+	.card-side-back{
+}
+}
+
 .card:hover .card-side-front{
 	transform: rotateY(-180deg);
 }
 
+@media screen and (max-width: 1024px){
+	.card:hover .card-side-front{
+	transform: unset;
+}
+}
+
 .card:hover .card-side-back{
 	transform: rotateY(0deg);
+}
+
+@media screen and (max-width: 1024px){
+	.card:hover .card-side-back{
+	transform: unset;
+}
 }
 
 .pricing{
@@ -342,6 +375,18 @@ body{
 	background-color: lightgrey;
 	margin:0 auto; 
 	height:85vh;
+}
+
+@media screen and (max-width: 1000px){
+	.pricing{ 
+	height:115vh;
+}
+}
+
+@media screen and (max-width: 600px){
+	.pricing{ 
+	height:300vh;
+}
 }
 
 .pricing:not(:last-child){
@@ -520,7 +565,7 @@ button:hover:after{
     padding-left: 8rem;
 }
 
-@media screen and (max-width: 1290px){
+@media screen and (max-width: 1370px){
 	.reviews{
 		height: 105vh;
 	}
@@ -700,6 +745,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	visibility: hidden;
 }
 
+@media screen and (max-width: 600px){
+	.pop_up{
+		width: 70%;
+		height: 80rem;
+	}
+}
+
 .pop_up_main{
 	height: 95vh;
 	width: 100%;
@@ -787,7 +839,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
 
+@media screen and (max-width: 600px){
+	.pop_up_information{
+	font-size: 1.5rem;
+}
+}
+
 .col-1-of-2{
-	width: calc((100% - 6rem)/2);
 	margin-right: 0 !important;
 }
+
