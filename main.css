@@ -128,7 +128,6 @@ body{
 .about_pictures img{
 	width: 25rem;
 	height: 24rem;
-	box-shadow: 8px 8px 10px #333;
 	border: 2px solid white;
 }
 
@@ -299,6 +298,7 @@ body{
 	.about_image:hover{
 		transform: unset;
 		z-index: unset;
+		box-shadow: unset;
 		transition: unset;
 	}
 }
