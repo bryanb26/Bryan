@@ -370,11 +370,6 @@ body{
 	transition: all 1s;
 }
 
-@media screen and (max-width: 1024px){
-	.card-side-back{
-}
-}
-
 .card:hover .card-side-front{
 	transform: rotateY(-180deg);
 }
@@ -410,7 +405,7 @@ body{
 
 @media screen and (max-width: 600px){
 	.pricing{ 
-	height:300vh;
+	height:400vh;
 }
 }
 
