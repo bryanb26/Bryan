@@ -172,7 +172,7 @@ body{
 
 @media screen and (max-width: 600px){
 	.about_image_1{
-		position: center;
+		left: 50%;
 	}
 }
 
