@@ -184,7 +184,7 @@ body{
 
 @media screen and (max-width: 600px){
 	.about_image_2{
-		position: center;
+		left: 33%;
 	}
 }
 
@@ -203,7 +203,7 @@ body{
 
 @media screen and (max-width: 600px){
 	.about_image_3{
-		position: center;
+		left: 33%;
 	}
 }
 
