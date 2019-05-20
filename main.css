@@ -331,6 +331,12 @@ body{
 	margin-right: 6rem;
 }
 
+@media screen and (max-width:600px){
+	[class^="col-"]:not(:last-child){
+		margin-right: 0rem;
+	}
+}
+
 .card{
 	height: 500px;
 	perspective: 150rem;
