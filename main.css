@@ -418,6 +418,12 @@ body{
 	transition: all 1s;
 }
 
+@media screen and (max-width: 1024px){
+	.card-side-back{
+	visibility: hidden;
+}
+}
+
 .card:hover .card-side-front{
 	transform: rotateY(-180deg);
 }
