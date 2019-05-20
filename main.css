@@ -222,7 +222,7 @@ body{
 
 }
 
-[class^="col-"] :not(.pop_up){
+[class^="col-"]{
 	float: left;
 	margin-bottom: 15rem;
 }
