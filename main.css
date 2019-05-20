@@ -591,6 +591,12 @@ button:hover:after{
 	}
 }
 
+@media screen and (max-width: 600px){
+	.reviews{
+		height: 120vh;
+	}
+}
+
 .review_header{
 	font-size:8vh;
 	text-align: center;
