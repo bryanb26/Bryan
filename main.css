@@ -797,6 +797,16 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
         animation-iteration-count: 1;
 }
 
+@media screen and (max-width: 1000px){
+	.review_image:hover
+{
+        -webkit-animation: unset;
+        animation: unset;
+        -webkit-animation-iteration-count: unset;
+        animation-iteration-count: unset;
+}
+}
+
 .review_name{
 	width: 75%;
 	height:auto;
@@ -908,6 +918,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 .pop_up_picture:hover img {
 	-webkit-transform: rotate(15deg) scale(1.4);
 	transform: rotate(15deg) scale(1.4);
+}
+
+@media screen and (max-width: 600px){
+	.pop_up_picture:hover img {
+		-webkit-transform: unset;
+		transform: unset;
+	}
 }
 
 .pop_up_information{
