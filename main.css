@@ -898,6 +898,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	width: 39rem;
 	height: 30rem;
 }
+@media screen and (max-width: 800px){
+	.pop_up_picture{
+		display: flex;
+		justify-content: center;
+	}
+	
+}
 
 .pop_up_information_header{
 	font-family: 'Staatliches', cursive;
@@ -919,7 +926,6 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 @media screen and (max-width: 800px){
 	.pop_up_picture img {
 		height: 19rem;
-		border-left: 15%;
 	}
 	
 }
