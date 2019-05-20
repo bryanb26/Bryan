@@ -241,6 +241,13 @@ body{
 	text-shadow: .5rem 1rem 2rem rgba(0,0,0, .4);
 }
 
+@media screen and (max-width: 600px){
+	.about_information_header:hover{
+		transform: unset;
+		text-shadow: unset;
+	}
+}
+
 .about_information{
 	font-size: var(--default-font-size);
 	font-family: 'Staatliches', cursive;
@@ -288,10 +295,27 @@ body{
 	transition: .25s;
 }
 
+@media screen and (max-width: 600px){
+	.about_image:hover{
+		transform: unset;
+		z-index: unset;
+		box-shadow: unset;
+		transition: unset;
+	}
+}
+
 .about_pictures:hover .about_image:not(:hover){
 	transform: scale(.9);
 	opacity: 0.3;
 	transition: .5s;
+}
+
+@media screen and (max-width: 600px){
+	.about_pictures:hover .about_image:not(:hover){
+		transform: unset;
+		opacity: unset;
+		transition: unset;
+	}
 }
 
 .about_pictures{
