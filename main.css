@@ -915,6 +915,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
+
+@media screen and (max-width: 800px){
+	.pop_up_picture img {
+		height: 15rem;
+	}
+	
+}
 .pop_up_picture:hover img {
 	-webkit-transform: rotate(15deg) scale(1.4);
 	transform: rotate(15deg) scale(1.4);
