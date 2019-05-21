@@ -465,13 +465,13 @@ body{
 
 @media screen and (max-width: 800px){
 	.pricing{ 
-	height:285vh;
+	height:215vh;
 }
 }
 
 @media screen and (max-width: 600px){
 	.pricing{ 
-	height:355vh;
+	height:350vh;
 }
 }
 
