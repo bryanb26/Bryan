@@ -349,8 +349,8 @@ body{
 	clear: both;
 }
 @media screen and (max-width:600px){
-	.pricing{
-		margin-bottom: 10rem;
+	.reviews{
+		margin-top: 10rem;
 	}
 }
 
