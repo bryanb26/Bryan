@@ -974,3 +974,9 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 .pop_up .col-1-of-2{
 	margin-bottom: 0rem;
 }
+
+@media screen and (max-width: 600px){
+	.before_col-1-of-2 .col-1-of-2{
+	height: 21rem;
+}
+}
