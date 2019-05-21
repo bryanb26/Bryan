@@ -295,7 +295,7 @@ body{
 	transition: .25s;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.about_image:hover{
 		transform: unset;
 		z-index: unset;
@@ -465,7 +465,7 @@ body{
 
 @media screen and (max-width: 800px){
 	.pricing{ 
-	height:365vh;
+	height:355vh;
 }
 }
 
