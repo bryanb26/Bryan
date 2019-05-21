@@ -703,6 +703,12 @@ button:hover:after{
 	}
 }
 
+@media screen and (max-height: 378px){
+	.reviews{
+		margin-top: 5rem;
+	}
+}
+
 .review_header{
 	font-size:8vh;
 	text-align: center;
