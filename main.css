@@ -964,7 +964,6 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 @media screen and (max-width: 600px){
 	.pop_up_information{
 	font-size: 1.5rem;
-	margin-top: -15rem;
 }
 }
 
@@ -972,9 +971,6 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	margin-right: 0 !important;
 }
 
-@media screen and (max-width: 600px){
-	.pop_up .col-1-of-2{
-		margin-bottom: 0rem !important;
-		height: 20rem;
-	}
+.pop_up .col-1-of-2{
+	margin-bottom: 0rem;
 }
