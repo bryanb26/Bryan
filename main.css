@@ -241,7 +241,7 @@ body{
 	text-shadow: .5rem 1rem 2rem rgba(0,0,0, .4);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.about_information_header:hover{
 		transform: unset;
 		text-shadow: unset;
@@ -255,7 +255,7 @@ body{
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.about_information{
 		font-size: 1.5rem;
 		width: 95%;
@@ -276,7 +276,7 @@ body{
   font-size: 17px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.topnav a {
 		font-size: 12px;
 		padding: 10px 12px;
@@ -311,7 +311,7 @@ body{
 	transition: .5s;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.about_pictures:hover .about_image:not(:hover){
 		transform: unset;
 		opacity: unset;
@@ -348,7 +348,7 @@ body{
 	display: table;
 	clear: both;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 	.reviews{
 		margin-top: 10rem;
 	}
@@ -360,7 +360,7 @@ body{
 	float: left;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 	.col-1-of-3{
 		width: 100%;
 	}
@@ -371,7 +371,7 @@ body{
 	margin-right: 6rem;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 	[class^="col-"]:not(:last-child){
 		margin-right: 0rem;
 	}
@@ -388,7 +388,7 @@ body{
 	font-size: --default-font-size;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 	.card{
 		margin-right: 0rem;
 	}
@@ -463,7 +463,7 @@ body{
 }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.pricing{ 
 	height:365vh;
 }
@@ -473,7 +473,7 @@ body{
 	margin-bottom: 8rem;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.pricing:not(:last-child){
 		margin-bottom: 1rem;
 	}
@@ -485,7 +485,7 @@ body{
 	background-size:cover;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 	.card_picture{
 	height:30rem;
 }
@@ -651,7 +651,7 @@ button:hover:after{
 	}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.reviews{
 		height: 110vh;
 	}
@@ -968,7 +968,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	transform: rotate(15deg) scale(1.4);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.pop_up_picture:hover img {
 		-webkit-transform: unset;
 		transform: unset;
@@ -984,7 +984,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.pop_up_information{
 	font-size: 1.5rem;
 }
@@ -998,7 +998,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	margin-bottom: 0rem;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.before_col-1-of-2 .col-1-of-2{
 	height: 21rem;
 }
