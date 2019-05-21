@@ -118,6 +118,12 @@ body{
 	}
 }
 
+@media screen and (max-height: 500px){
+	.title_primary{
+		font-size: 3.5rem;
+	}
+}
+
 @media screen and (max-width: 500px){
 	.title_primary{
 		font-size: 2.5rem;
@@ -132,6 +138,12 @@ body{
 }
 
 @media screen and (max-width: 600px){
+	.title_secondary{
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-height: 500px){
 	.title_secondary{
 		font-size: 1.5rem;
 	}
