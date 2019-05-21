@@ -741,6 +741,14 @@ button:hover:after{
 	}
 }
 
+@media screen and (max-height: 500px){
+	.review_comment_outer img{
+		width: 10rem;
+		height: 10rem;
+	}
+}
+
+
 .review{
 	background-image:linear-gradient(
 		to left,
@@ -755,6 +763,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 }
 
 @media screen and (max-width: 1525px){
+	.review{
+		height: 20vh;
+		width: 60vh;
+	}
+}
+
+@media screen and (max-height: 500px){
 	.review{
 		height: 20vh;
 		width: 60vh;
