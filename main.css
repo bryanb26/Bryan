@@ -915,6 +915,14 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	
 }
 
+@media screen and (max-height: 500px){
+	.pop_up{
+		height: 65vh;
+	}
+	
+	
+}
+
 .pop_up_main{
 	height: 95vh;
 	width: 100%;
@@ -933,6 +941,14 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 @media screen and (max-width: 800px){
 	.pop_up_main{
 		height: 85vh;
+	}
+	
+	
+}
+
+@media screen and (max-height: 500px){
+	.pop_up_main{
+		height: 65vh;
 	}
 	
 	
@@ -1080,6 +1096,12 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 @media screen and (max-width: 800px){
 	.pop_up_information{
 	font-size: 1.5rem;
+}
+}
+
+@media screen and (max-height: 500px){
+	.pop_up_information{
+	font-size: 1rem;
 }
 }
 
