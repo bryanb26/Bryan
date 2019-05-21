@@ -349,6 +349,9 @@ body{
 	clear: both;
 }
 
+.pricing{
+	margin-bottom: 5rem;
+}
 .col-1-of-3{
 	width: calc((100% - 15rem)/3);
 	float: left;
