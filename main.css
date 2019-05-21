@@ -841,6 +841,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	visibility: hidden;
 }
 
+@media screen and (max-width: 800px){
+	.pop_up{
+		height: 85vh;
+	}
+	
+	
+}
 
 .pop_up_main{
 	height: 95vh;
@@ -857,7 +864,13 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	border: solid white 5px;
 }
 
-
+@media screen and (max-width: 800px){
+	.pop_up_main{
+		height: 85vh;
+	}
+	
+	
+}
 
 .pop_up:target{
 	opacity: 1;
