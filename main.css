@@ -989,6 +989,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	.close_button{
 		padding: .5rem .8rem;
 		top: 95%;
+		font-size: 1.2rem;
 	}
 	
 }
@@ -1078,7 +1079,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 
 @media screen and (max-height: 500px){
 	.pop_up_picture img {
-		height: 14rem;
+		height: 10rem;
 	}
 	
 }
