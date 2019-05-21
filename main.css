@@ -514,11 +514,6 @@ body{
 }
 }
 
-@media screen and (max-width 670px){
-	.pricing{ 
-		height:450vh;
-	}
-}
 
 .pricing:not(:last-child){
 	margin-bottom: 8rem;
