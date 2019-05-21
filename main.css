@@ -471,6 +471,12 @@ body{
 	height:85vh;
 }
 
+@media screen and (max-width: 1170px){
+	.pricing{ 
+	margin-left: 3%;
+}
+}
+
 @media screen and (max-width: 1100px){
 	.pricing{ 
 	height:115vh;
@@ -480,6 +486,7 @@ body{
 @media screen and (max-width: 800px){
 	.pricing{ 
 	height:215vh;
+	margin-left: 0%;
 }
 }
 
