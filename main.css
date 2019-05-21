@@ -881,7 +881,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 
 @media screen and (max-width: 800px){
 	.close_button{
-		padding: 3rem 5rem;
+		padding: 1rem 1.666rem;
 	}
 	
 }
