@@ -755,8 +755,8 @@ button:hover:after{
 
 @media screen and (max-height: 500px){
 	.review_comment_outer img{
-		width: 10rem;
-		height: 10rem;
+		width: 5rem;
+		height: 5rem;
 	}
 }
 
@@ -886,6 +886,12 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 @media screen and (max-width: 1525px){
 	.review_name{
 		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-height: 500px){
+	.review_name{
+		font-size: 1rem;
 	}
 }
 
