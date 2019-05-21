@@ -508,16 +508,16 @@ body{
 }
 }
 
-@media screen and (max-height: 500px){
-	.pricing{ 
-	height:560vh;
-}
-}
-
 @media screen and (max-height: 376px) and (max-width 670px){
 	.pricing{ 
 		height:600vh;
 	}
+}
+
+@media screen and (max-height: 500px){
+	.pricing{ 
+	height:560vh;
+}
 }
 
 .pricing:not(:last-child){
