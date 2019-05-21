@@ -514,7 +514,7 @@ body{
 }
 }
 
-@media screen and (max-height: 375px) and (max-width 670px){
+@media screen and (max-height: 376px) and (max-width 670px){
 	.pricing{ 
 		height:450vh;
 	}
