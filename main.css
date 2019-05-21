@@ -514,6 +514,11 @@ body{
 }
 }
 
+@media screen and (max-height: 376px) and (max-width 670px){
+	.pricing{ 
+		height:600vh;
+	}
+}
 
 .pricing:not(:last-child){
 	margin-bottom: 8rem;
@@ -700,12 +705,6 @@ button:hover:after{
 @media screen and (max-width: 800px){
 	.reviews{
 		height: 110vh;
-	}
-}
-
-@media screen and (max-height: 378px){
-	.reviews{
-		margin-top: 5rem;
 	}
 }
 
