@@ -348,10 +348,13 @@ body{
 	display: table;
 	clear: both;
 }
-
-.pricing{
-	margin-bottom: 5rem;
+@media screen and (max-width:600px){
+	.pricing{
+		margin-bottom: 10rem;
+	}
 }
+
+
 .col-1-of-3{
 	width: calc((100% - 15rem)/3);
 	float: left;
