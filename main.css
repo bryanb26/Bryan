@@ -1120,7 +1120,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 @media screen and (max-height: 500px){
 	.pop_up_information{
 	font-size: 1rem;
-	margin-top: 5%;
+	margin-top: 1%;
 }
 }
 
