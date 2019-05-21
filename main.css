@@ -253,7 +253,7 @@ body{
 	text-shadow: .5rem 1rem 2rem rgba(0,0,0, .4);
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1100px){
 	.about_information_header:hover{
 		transform: unset;
 		text-shadow: unset;
@@ -309,7 +309,7 @@ body{
 	transition: .25s;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1100px){
 	.about_image:hover{
 		transform: unset;
 		z-index: unset;
@@ -325,7 +325,7 @@ body{
 	transition: .5s;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1100px){
 	.about_pictures:hover .about_image:not(:hover){
 		transform: unset;
 		opacity: unset;
@@ -448,7 +448,7 @@ body{
 	transform: rotateY(-180deg);
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1100px){
 	.card:hover .card-side-front{
 	transform: unset;
 }
@@ -823,7 +823,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
         animation-iteration-count: 1;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1100px){
 	.review_image:hover
 {
         -webkit-animation: unset;
@@ -995,7 +995,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	transform: rotate(15deg) scale(1.4);
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
 	.pop_up_picture:hover img {
 		-webkit-transform: unset;
 		transform: unset;
