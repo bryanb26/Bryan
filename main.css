@@ -865,9 +865,9 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 }
 
 @media screen and (max-width: 600px){
-	.pop_up{
+	.pop_up_main{
 		width: 70%;
-		height: 50vh;
+		height: 60vh;
 		top: 40%;
 	}
 }
