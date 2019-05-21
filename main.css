@@ -833,7 +833,7 @@ clip-path: polygon(8% 25%, 15% 25%, 15% 10%, 85% 10%, 85% 25%, 92% 25%, 92% 75%,
 	height: 95vh;
 	width: 90%;
 	position: fixed;
-	top:50%;
+	top:40%;
 	left:50%;
 	transform: translate(-50%,-50%);
 	z-index: 100000000;
